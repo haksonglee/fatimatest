@@ -1,0 +1,595 @@
+[{
+  "dept": "MF",
+  "deptname": "[신장내과]",
+  "title": "박기룡",
+  "description": "급성·만성신부전, 사구체신염,신증후군, 단백뇨, 부종, 당뇨병성 신질환, 고혈압성 신질환, 혈뇨, 요로감염 ",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100825083511_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02483"
+  }
+}, {
+  "dept": "MF",
+  "deptname": "[신장내과]",
+  "title": "윤성한",
+  "description": "급성·만성신부전, 사구체신염, 혈뇨, 부종, 신증후군, 당뇨병성 신질환, 고혈압성 신질환, 단백뇨, 요로감염",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20150309030120_신장내과 윤성한.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03421"
+  }
+}, {
+  "dept": "MF",
+  "deptname": "[신장내과]",
+  "title": "권윤재",
+  "description": "급성·만성신부전, 사구체신염, 신증후군, 부종, 혈뇨, 단백뇨, 요로감염, 당뇨병성·고혈압성 신질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04280_f83d183204a7ace63b63e816c45d8a86.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04280"
+  }
+}, {
+  "dept": "NU",
+  "deptname": "[신경과]",
+  "title": "권재철",
+  "description": "치매(알츠하이머,혈관성), 다발성 경화증",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/01699_9e6e403ccb9e6e91514b2824c94899c0.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01699"
+  }
+}, {
+  "dept": "NU",
+  "deptname": "[신경과]",
+  "title": "이미희",
+  "description": "간질",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015400_3.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02335"
+  }
+}, {
+  "dept": "NU",
+  "deptname": "[신경과]",
+  "title": "김성희",
+  "description": "운동장애(파킨슨), 손발저림, 말초신경장애-EMG(매주 화요일)",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015326_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02700"
+  }
+}, {
+  "dept": "NU",
+  "deptname": "[신경과]",
+  "title": "김샤롬",
+  "description": "파킨슨병, 손떨림, 어지럼증, 손발저림, 뇌졸중",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03723_7869afec3f5262f07aec9dc3396b5764.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03723"
+  }
+}, {
+  "dept": "NU",
+  "deptname": "[신경과]",
+  "title": "박보석",
+  "description": "말초신경질환 및 척수질환, 뇌졸중, 두통, 어지럼증",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04203_e6d8c8a84cda11b576f64be69e312722.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04203"
+  }
+}, {
+  "dept": "PD",
+  "deptname": "[소아청소년과]",
+  "title": "마상혁",
+  "description": "<h1>111호흡기감염(오래가는기침, 부비동염), 백신접종상담, 해외여행상담, 소아감염병 소아아토피성피부염성장클리닉※성장클리닉(키가작은아이, 성조숙증)은 월(오후),수(오후), 목(오후)만 진료하며 전화예약(270-1000) 시에만 진료가능합니다.</h1>",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100825085313_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01318"
+  }
+}, {
+  "dept": "PD",
+  "deptname": "[소아청소년과]",
+  "title": "이학성",
+  "description": "신생아, 호흡기",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100825085415_4.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02735"
+  }
+}, {
+  "dept": "PD",
+  "deptname": "[소아청소년과]",
+  "title": "최재원",
+  "description": "소화기, 호흡기, 신생아",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20130621105620_7.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03307"
+  }
+}, {
+  "dept": "PD",
+  "deptname": "[소아청소년과]",
+  "title": "신주화",
+  "description": "호흡기, 알레르기, 감염, 신생아",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03510_199fc102369b1121d0675ec2f18c4013.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03510"
+  }
+}, {
+  "dept": "MJ",
+  "deptname": "[류마티스내과]",
+  "title": "강진영",
+  "description": "류마티스 관절염, 전신홍반루푸스, 강직성 척추염전신경화증, 쇼그렌증후군, 통풍, 베체트병자가면역질환, 섬유근통, 혈관염, 골관절염관절초음파 및 관절주사",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03791_fa4de0304eaefa5fbecefd5f1ee24ed8.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03791"
+  }
+}, {
+  "dept": "ME",
+  "deptname": "[혈액종양내과]",
+  "title": "장성훈",
+  "description": "빈혈, 혈소판질환, 혈액암, 고형암, 기타 혈액질환, 항암치료클리닉, 완화의료(호스피스)",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100824075735_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02110"
+  }
+}, {
+  "dept": "ME",
+  "deptname": "[혈액종양내과]",
+  "title": "여경아",
+  "description": "고형암(위암, 대장암, 폐암, 식도암, 간담도암, 췌장암, 유방암, 난소암, 두경부암, 비뇨기암)혈액암(백혈병, 악성림프종, 다발골수종, 골수형성이상증후군, 골수증식종양)빈혈, 출혈 및 혈전 질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20150309015219_혈액종양내과 여경아과장.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03422"
+  }
+}, {
+  "dept": "OT",
+  "deptname": "[안과]",
+  "title": "김민우",
+  "description": "전안부, 망막, 안성형, 녹내장, 사시",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04111_158564d51261fede005ed23b9df0a2f0.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04111"
+  }
+}, {
+  "dept": "OT",
+  "deptname": "[안과]",
+  "title": "최성원",
+  "description": "망막질환, 유리체질환 백내장, 포도막염, 미숙아 망막병증, 안외상",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04281_ff4abcd0fa39ea37cc5232e312e9bfeb.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04281"
+  }
+}, {
+  "dept": "AN",
+  "deptname": "[마취통증의학과]",
+  "title": "황선호",
+  "description": "노인마취, 부위마취",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831020232_5.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02960"
+  }
+}, {
+  "dept": "AN",
+  "deptname": "[마취통증의학과]",
+  "title": "이동헌",
+  "description": "일반마취, 노인마취, 뇌신경마취",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20150409123827_ldh(hp).jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03471"
+  }
+}, {
+  "dept": "AN",
+  "deptname": "[마취통증의학과]",
+  "title": "이선미",
+  "description": "통증치료, 산과마취, 일반마취",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20160302044118_LSM(h).jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03631"
+  }
+}, {
+  "dept": "AN",
+  "deptname": "[마취통증의학과]",
+  "title": "서은희",
+  "description": "일반마취, 소아마취, 심폐마취",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04216_de5681a980837e4cf70db10c5619eb28.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04216"
+  }
+}, {
+  "dept": "AN",
+  "deptname": "[마취통증의학과]",
+  "title": "조영일",
+  "description": "통증관리, 중환자관리, 일반마취",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04282_27d89fbd0294673337bf029b28b29f3b.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04282"
+  }
+}, {
+  "dept": "MK",
+  "deptname": "[감염내과]",
+  "title": "임민희",
+  "description": "발열, 불명열, 여행의학, 성인예방접종, 임파선염, 감염질환, 대상포진",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20130102094900_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03128"
+  }
+}, {
+  "dept": "PS",
+  "deptname": "[성형외과]",
+  "title": "황오현",
+  "description": "미용, 재건, 외상",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100826022505_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02020"
+  }
+}, {
+  "dept": "CS",
+  "deptname": "[흉부외과]",
+  "title": "구본원",
+  "description": "일반흉부질환(폐,식도,늑막,횡격막,늑골,다한증,흉곽기형,기흉 등)혈관질환(말초동맥질환, 하지정맥류, 심부정맥혈전증, 레이노드증후군, 버거씨병, 동정맥루조성술 등)",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015636_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01693"
+  }
+}, {
+  "dept": "CS",
+  "deptname": "[흉부외과]",
+  "title": "김대현",
+  "description": "혈관질환(말초동맥질환, 하지정맥류, 심부정맥혈전증, 레이노드증후군, 버거씨병, 동정맥루조성술 등)일반흉부질환(폐,식도,늑막,횡격막,늑골,다한증,흉곽기형,기흉 등) ",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015652_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02620"
+  }
+}, {
+  "dept": "UR",
+  "deptname": "[비뇨의학과]",
+  "title": "최환식",
+  "description": "배뇨장애, 전립선비대증, 요로결석, 소아비뇨기과",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831020011_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01689"
+  }
+}, {
+  "dept": "GS",
+  "deptname": "[외과]",
+  "title": "장내성",
+  "description": "하부위장관, 대장항문클리닉, 복강경외과",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015614_5.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02036"
+  }
+}, {
+  "dept": "GS",
+  "deptname": "[외과]",
+  "title": "서진영",
+  "description": "유방, 갑상선 외과",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/02841_d3ac97b128917ce2bb54a285c313e6c4.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02841"
+  }
+}, {
+  "dept": "GS",
+  "deptname": "[외과]",
+  "title": "윤경진",
+  "description": "간, 담도췌장, 갑상선, 유방, 복강경, 성인탈장",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20120221045738_외과 윤경진과장.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03107"
+  }
+}, {
+  "dept": "GS",
+  "deptname": "[외과]",
+  "title": "최승휘",
+  "description": "간담췌외과, 상부위장관외과, 복강경탈장수술, 소아·성인탈장",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20120410105542_csh-1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03196"
+  }
+}, {
+  "dept": "GS",
+  "deptname": "[외과]",
+  "title": "채용민",
+  "description": "하부위장관, 대장항문클리닉, 단일공 복강경외과, 외상외과, 성인탈장",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20140306070532_외과.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03333"
+  }
+}, {
+  "dept": "MD",
+  "deptname": "[내분비내과]",
+  "title": "조성래",
+  "description": "당뇨, 갑상선, 골다공증, 고지혈증, 비만, 남성갱년기",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20160105114851_jsr.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01383"
+  }
+}, {
+  "dept": "MD",
+  "deptname": "[내분비내과]",
+  "title": "이상민",
+  "description": "갑상선, 당뇨, 기타내분비질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20120302090946_4.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03120"
+  }
+}, {
+  "dept": "RM",
+  "deptname": "[재활의학과]",
+  "title": "변환택",
+  "description": "경직, 연하장애, 뇌졸중, 소아재활, 심장재활, 호흡재활, 전정재활, 외상성뇌손상, 척수손상, 척추측만증, 소아보행장애(안짱걸음, 평발),사경, 암재활(림프부종)",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/02808_7d0183779f42f23d8983b311d776bfa9.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02808"
+  }
+}, {
+  "dept": "ET",
+  "deptname": "[이비인후과]",
+  "title": "김현성",
+  "description": "만성중이염, 만성부비동염",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100826042717_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01624"
+  }
+}, {
+  "dept": "ET",
+  "deptname": "[이비인후과]",
+  "title": "이상하",
+  "description": "귀, 코, 목 전체적 질환 등",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03724_1c1ccb5e51024410f38aae7ce2a8284f.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03724"
+  }
+}, {
+  "dept": "DT",
+  "deptname": "[치과]",
+  "title": "박성진",
+  "description": "구강악안면외과, 임플란트수술, 턱관절질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831020343_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01703"
+  }
+}, {
+  "dept": "DT",
+  "deptname": "[치과]",
+  "title": "김정숙",
+  "description": "치과보철과, 임플란트보철",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831020414_3.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=70062"
+  }
+}, {
+  "dept": "MC",
+  "deptname": "[심장내과]",
+  "title": "이일수",
+  "description": "허혈성심질환(협심증, 심근경색),고혈압, 심부전, 중재적 시술, 판막질환, 부정맥,대동맥질환, ",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100824075025_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02003"
+  }
+}, {
+  "dept": "MC",
+  "deptname": "[심장내과]",
+  "title": "한양천",
+  "description": "허혈성심질환(협심증, 심근경색), 고혈압, 판막질환, 심부전, 부정맥, 심초음파, 대동맥질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100824075040_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02734"
+  }
+}, {
+  "dept": "MC",
+  "deptname": "[심장내과]",
+  "title": "권태정",
+  "description": "허혈성심질환(협심증, 심근경색), 고혈압, 판막질환심부전, 부정맥, 심초음파, 대동맥질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20120102063558_ktj.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03111"
+  }
+}, {
+  "dept": "MC",
+  "deptname": "[심장내과]",
+  "title": "이재광",
+  "description": " 심부전,부정맥, 심근경색, 협심증, 관상동맥질환, 심박동기, 제세동기삽입, 심장중재적시술, 고혈압, 고지혈증, 호흡곤란, 두근거림, 흉통, 실신",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04032_75190896afb5f44e73eca00f9d04c3a5.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04032"
+  }
+}, {
+  "dept": "DM",
+  "deptname": "[피부과]",
+  "title": "고동한",
+  "description": "일반피부과, 탈모, 여드름, 색소질환조갑질환, 피부종양",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20130305044951_고동한과장.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03297"
+  }
+}, {
+  "dept": "DM",
+  "deptname": "[피부과]",
+  "title": "김현지",
+  "description": " 일반피부과, 아토피 피부염, 접촉성 피부염,  두드러기, 건선, 여드름",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03904_c5e1246915868a2fe5c8ceac213e8f09.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03904"
+  }
+}, {
+  "dept": "OS",
+  "deptname": "[정형외과]",
+  "title": "조성래",
+  "description": "척추, 인공관절, 고관절, 슬관절, 골다공증, 일반외상, 류마티스관절염",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015727_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01526"
+  }
+}, {
+  "dept": "OS",
+  "deptname": "[정형외과]",
+  "title": "승형준",
+  "description": "수부 및 족부(미세수술), 인공관절, 소아 일반외상",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20130408103700_shj.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01929"
+  }
+}, {
+  "dept": "OS",
+  "deptname": "[정형외과]",
+  "title": "조제일",
+  "description": "관절내시경, 인공관절(무릎,어깨), 관절염, 외상",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015748_3.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02626"
+  }
+}, {
+  "dept": "OS",
+  "deptname": "[정형외과]",
+  "title": "전도환",
+  "description": "척추, 관절내시경, 슬관절, 고관절, 견관절, 인공관절, 외상, 퇴행성질환 및 골다공증",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015804_4.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02717"
+  }
+}, {
+  "dept": "OS",
+  "deptname": "[정형외과]",
+  "title": "김정우",
+  "description": "수부, 슬관절, 외상",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04283_601773299083783d96a4b9267c84e818.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04283"
+  }
+}, {
+  "dept": "NS",
+  "deptname": "[신경외과]",
+  "title": "고원일",
+  "description": "척추, 디스크, 뇌·척추외상, 말초신경",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20130418110559_GWI.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01677"
+  }
+}, {
+  "dept": "NS",
+  "deptname": "[신경외과]",
+  "title": "최영준",
+  "description": "뇌졸중, 두부외상, 뇌동맥류",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100831015927_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02240"
+  }
+}, {
+  "dept": "NS",
+  "deptname": "[신경외과]",
+  "title": "유민욱",
+  "description": " 뇌혈관질환, 두부외상, 뇌동맥류",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04031_11ca625e90f7186e910cc208a05382f1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04031"
+  }
+}, {
+  "dept": "MB",
+  "deptname": "[호흡기내과]",
+  "title": "강경우",
+  "description": "만성기침, 호흡곤란, 기관지 천식 및 알러지성 기도질환만성 폐쇄성 폐질환, 폐암, 폐결핵 및 폐렴",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20161227095750_호흡기내과 강경우 과장.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03689"
+  }
+}, {
+  "dept": "MB",
+  "deptname": "[호흡기내과]",
+  "title": "이지현",
+  "description": "만성기침, 기관지 천식 및 알러지성 기도질환, 만성 폐쇄성 폐질환, 폐암, 폐결핵 및 폐렴",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03796_f88e56d5776d839f270f8346f6cb3c64.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03796"
+  }
+}, {
+  "dept": "MB",
+  "deptname": "[호흡기내과]",
+  "title": "조강원",
+  "description": " 만성기침, 기관지천식, 만성폐쇄성폐질환, 간질성폐질환, 폐암, 폐렴 및 폐결핵",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/03900_e7ebb0f2b7037332615ac8a63fe47835.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03900"
+  }
+}, {
+  "dept": "OG",
+  "deptname": "[산부인과]",
+  "title": "박정석",
+  "description": "산과, 부인과, 초음파, 부인과내시경",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100826025058_1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=01494"
+  }
+}, {
+  "dept": "OG",
+  "deptname": "[산부인과]",
+  "title": "박철훈",
+  "description": "단일공 복강경, 복강경 자궁근종절제술, 자궁내시경, 비뇨부인과(자궁탈출증 및 요실금), 부인과, 산과",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100826025115_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02397"
+  }
+}, {
+  "dept": "OG",
+  "deptname": "[산부인과]",
+  "title": "곽현성",
+  "description": "부인과, 산과, 초음파, 부인종양, 복강경수술생식내분비질환",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20140128113511_hs-1.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03103"
+  }
+}, {
+  "dept": "OG",
+  "deptname": "[산부인과]",
+  "title": "김길중",
+  "description": "산과, 일반 부인과, 복강경 및 자궁경, 비뇨 부인과",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20150409123738_kkj(hp).jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03482"
+  }
+}, {
+  "dept": "OG",
+  "deptname": "[산부인과]",
+  "title": "김석원",
+  "description": "단일공수술, 자궁근종, 난소낭종, 요실금, 자궁탈출증, 자궁경부이상, 산과 등",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04113_47a56342c6552c64579e9264579b3cf3.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04113"
+  }
+}, {
+  "dept": "MA",
+  "deptname": "[소화기내과]",
+  "title": "박종호",
+  "description": "위, 식도, 대장, 간, 췌담도",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100824070913_2.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02127"
+  }
+}, {
+  "dept": "MA",
+  "deptname": "[소화기내과]",
+  "title": "이주용",
+  "description": "상하부 위장관, 간질환, 췌담도",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20100824071828_5.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=02727"
+  }
+}, {
+  "dept": "MA",
+  "deptname": "[소화기내과]",
+  "title": "신재욱",
+  "description": "위, 대장,간, 췌담도",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20120302090906_8.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03127"
+  }
+}, {
+  "dept": "MA",
+  "deptname": "[소화기내과]",
+  "title": "진수신",
+  "description": "위, 식도, 대장, 간, 췌담도",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/20150309054345_소화기내과 진수진과장.jpg",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=03420"
+  }
+}, {
+  "dept": "MA",
+  "deptname": "[소화기내과]",
+  "title": "김완철",
+  "description": "위, 식도, 대장, 간, 췌담도",
+  "imageUrl": "https://www.fatimahosp.co.kr/uploads/clinicimg/04201_f473b54943f0d08928de267f7f6c2c3c.png",
+  "link": {
+    "web": "https://www.fatimahosp.co.kr/pages/department?drcode=04201"
+  }
+}]

@@ -4,8 +4,8 @@ const app = express();
 
 
 
-//const logger = require('morgan');
-//app.use(logger('dev', {}));
+const logger = require('morgan');
+app.use(logger('dev', {}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true

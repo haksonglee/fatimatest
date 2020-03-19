@@ -86,10 +86,3 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
 
   return responseBody
 }
-
-
-{
-  "label": "소아청소년과",
-  "action": "message",
-  "messageText": "소아청소년과 예약"
-}

@@ -3,11 +3,11 @@
 
 exports.call_drlist = function(deptname, drname, yedate, gubun) {
 
- //gubun 'sang'=> 상병, 'dept' => 진료과
+  //gubun 'sang'=> 상병, 'dept' => 진료과
   //deptname = params['진료과명'] //시나리오 필수파라미터 이름 동일해야함
   //var string = fs.readFileSync(dataPath, 'utf-8');
   //var data = JSON.parse(string)
-  const data   = require('./drlist.json')
+  const data = require('./drlist.json')
 
   // for (var i = 0; i < data.length; i++) {
   //   var item = data[i];
@@ -29,7 +29,7 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
 
   var filterbody = data.filter(item => {
     return (item.deptname === '[' + deptname + ']' && (item.title === drname || drname === undefined)) ||
-           (deptname === undefined && item.title === drname)
+      (deptname === undefined && item.title === drname)
   })
   let dept = filterbody.dept
 
@@ -61,22 +61,27 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
     version: "2.0",
     template: {
       outputs: [{
-        simpleText : { text : "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."},
-        listCard: {
-          header: {
-            title: "창원파티마병원 의료진",
-            imageUrl: "https://www.fatimahosp.co.kr/assets/images/sub/sub_visual5.jpg"
-          },
-          items: filterbody,
-          buttons: [{
-            label: "다른 진료과 선택",
-            action: "message",
-            messageText: "진료예약"
-          },
-            buttonstr
-          ]
+          simpleText: {
+            text: "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."
+          }
+        },
+        {
+          listCard: {
+            header: {
+              title: "창원파티마병원 의료진",
+              imageUrl: "https://www.fatimahosp.co.kr/assets/images/sub/sub_visual5.jpg"
+            },
+            items: filterbody,
+            buttons: [{
+                label: "다른 진료과 선택",
+                action: "message",
+                messageText: "진료예약"
+              },
+              buttonstr
+            ]
+          }
         }
-      }],
+      ],
       quickReplies: [{
         "label": "소아청소년과",
         "action": "message",

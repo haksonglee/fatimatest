@@ -7,7 +7,7 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
   //deptname = params['진료과명'] //시나리오 필수파라미터 이름 동일해야함
   //var string = fs.readFileSync(dataPath, 'utf-8');
   //var data = JSON.parse(string)
-  const data   = require('./drlist.json')
+  const data   = require('./crawling/drlist.json')
 
   // for (var i = 0; i < data.length; i++) {
   //   var item = data[i];
@@ -67,7 +67,11 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
             imageUrl: "https://www.fatimahosp.co.kr/assets/images/sub/sub_visual5.jpg"
           },
           items: filterbody,
-          buttons: [
+          buttons: [{
+            label: "다른 진료과 선택",
+            action: "message",
+            messageText: "진료예약"
+          },
             buttonstr
           ]
         }

@@ -61,7 +61,7 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
     version: "2.0",
     template: {
       outputs: [{
-        simpletext : { text : "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."},
+        simpleText : { text : "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."},
         listCard: {
           header: {
             title: "창원파티마병원 의료진",

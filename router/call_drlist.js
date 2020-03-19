@@ -26,14 +26,33 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
   // };
 
 
-
+  let quickbody = "[";
+  let tempbody;
   var filterbody = data.filter(item => {
     return (item.deptname === '[' + deptname + ']' && (item.title === drname || drname === undefined)) ||
       (deptname === undefined && item.title === drname)
   })
   let dept = filterbody.dept
 
+  //console.log("filterbody.length", filterbody.length)
+  for(let i = 0 ; i < filterbody.length; i++){
+    tempbody = `{ "label": "${filterbody[i].title}",
+      "action": "message",
+      "messageText": "${filterbody[i].title} 예약"
+    }`
+    //console.log("tempbody", typeof tempbody)
+    if(i === filterbody.length  - 1){
+      quickbody += tempbody
+    }else{
+      quickbody += tempbody + ','
+    }
+    //console.log("quickbody", quickbody)
+  }
+
+quickbody = JSON.parse(quickbody+"]")
+
   var buttonstr;
+
   //console.log('deptname = ' + deptname)
   switch (deptname) {
     case '피부과':
@@ -82,11 +101,7 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
           }
         }
       ],
-      quickReplies: [{
-        "label": "소아청소년과",
-        "action": "message",
-        "messageText": "소아청소년과 예약"
-      }]
+      quickReplies: quickbody
     }
   }
 

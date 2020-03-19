@@ -75,9 +75,21 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
             buttonstr
           ]
         }
+      }],
+      quickReplies: [{
+        "label": "소아청소년과",
+        "action": "message",
+        "messageText": "소아청소년과 예약"
       }]
     }
   }
 
   return responseBody
+}
+
+
+{
+  "label": "소아청소년과",
+  "action": "message",
+  "messageText": "소아청소년과 예약"
 }

@@ -34,23 +34,6 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
   })
   let dept = filterbody.dept
 
-  //console.log("filterbody.length", filterbody.length)
-  for(let i = 0 ; i < filterbody.length; i++){
-    tempbody = `{ "label": "${filterbody[i].title}",
-      "action": "message",
-      "messageText": "${filterbody[i].title} 예약"
-    }`
-    //console.log("tempbody", typeof tempbody)
-    if(i === filterbody.length  - 1){
-      quickbody += tempbody
-    }else{
-      quickbody += tempbody + ','
-    }
-    //console.log("quickbody", quickbody)
-  }
-
-quickbody = JSON.parse(quickbody+"]")
-
   var buttonstr;
 
   //console.log('deptname = ' + deptname)
@@ -66,6 +49,8 @@ quickbody = JSON.parse(quickbody+"]")
         action: "phone",
         phoneNumber: "055-270-1000"
       }
+      texthelp = "해당 진료과는 전화예약만 가능합니다. 컨텍센터로 연락부탁드립니다."
+      quickbody = ""
       break;
 
     default:
@@ -74,6 +59,23 @@ quickbody = JSON.parse(quickbody+"]")
         action: "webLink",
         webLinkUrl: "https://www.fatimahosp.co.kr/pages/department?deptdoctor=" + dept
       }
+      texthelp = "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."
+      //console.log("filterbody.length", filterbody.length)
+      for (let i = 0; i < filterbody.length; i++) {
+        tempbody = `{ "label": "${filterbody[i].title}",
+          "action": "message",
+          "messageText": "${filterbody[i].title} 예약"
+        }`
+        //console.log("tempbody", typeof tempbody)
+        if (i === filterbody.length - 1) {
+          quickbody += tempbody
+        } else {
+          quickbody += tempbody + ','
+        }
+        //console.log("quickbody", quickbody)
+      }
+
+      quickbody = JSON.parse(quickbody + "]")
 
   }
   const responseBody = {
@@ -81,7 +83,7 @@ quickbody = JSON.parse(quickbody+"]")
     template: {
       outputs: [{
           simpleText: {
-            text: "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."
+            text: texthelp
           }
         },
         {

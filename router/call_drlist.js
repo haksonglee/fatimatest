@@ -28,16 +28,19 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
 
   let quickbody = "[";
   let tempbody;
-  var filterbody = data.filter(item => {
+  let filterbody = data.filter(item => {
     return (item.deptname === '[' + deptname + ']' && (item.title === drname || drname === undefined)) ||
       (deptname === undefined && item.title === drname)
   })
   let dept = filterbody.dept
+  let shortdeptname;
   //console.log("filterbody.length", filterbody.length)
   for (let i = 0; i < filterbody.length; i++) {
+    shortdeptname = filterbody[i].deptname
+    shortdeptname = shortdeptname.substring(1, shortdeptname.length - 1)
     tempbody = `{ "label": "${filterbody[i].title}",
       "action": "message",
-      "messageText": "${filterbody[i].title} 예약"
+      "messageText": "${shortdeptname} ${filterbody[i].title} 예약"
     }`
     //console.log("tempbody", typeof tempbody)
     if (i === filterbody.length - 1) {
@@ -50,7 +53,8 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
 
   quickbody = JSON.parse(quickbody + "]")
 
-  var buttonstr;
+  let buttonstr1;
+  let buttonstr2;
 
   //console.log('deptname = ' + deptname)
   switch (deptname) {
@@ -60,7 +64,7 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
     case '정신건강의학과':
     case '재활의학과':
     case '치과':
-      buttonstr = {
+      buttonstr2 = {
         label: "컨택센터 전화예약",
         action: "phone",
         phoneNumber: "055-270-1000"
@@ -69,14 +73,29 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
       break;
 
     default:
-      buttonstr = {
+      buttonstr2 = {
         label: "모바일예약 이동",
         action: "webLink",
         webLinkUrl: "https://www.fatimahosp.co.kr/pages/department?deptdoctor=" + dept
       }
       texthelp = "진료를 원하시는 의료진을 선택하시면 예약페이지로 이동합니다."
-
   }
+  if (drname === undefined) {
+    buttonstr1 = `{
+      "label": "다른 진료과 선택",
+      "action": "message",
+      "messageText": "진료예약" }`
+    }else {
+      buttonstr1 = `{
+        "label": "전체의사 선택",
+        "action": "message",
+        "messageText": "${shortdeptname} 예약" }`
+      }
+      console.log(buttonstr1)
+      buttonstr1 = JSON.parse(buttonstr1)
+
+
+
   const responseBody = {
     version: "2.0",
     template: {
@@ -92,12 +111,9 @@ exports.call_drlist = function(deptname, drname, yedate, gubun) {
               imageUrl: "https://www.fatimahosp.co.kr/assets/images/sub/sub_visual5.jpg"
             },
             items: filterbody,
-            buttons: [{
-                label: "다른 진료과 선택",
-                action: "message",
-                messageText: "진료예약"
-              },
-              buttonstr
+            buttons: [
+              buttonstr1,
+              buttonstr2
             ]
           }
         }
